@@ -48,7 +48,7 @@ $hed = array(
 'Content-Type' => 'text/html; charset=ISO-8859-1');
 $smtp = Mail::factory('smtp',
 array('host' => $host,
-'port' => 465,
+'port' => $port,
 'auth' => true,
 'username' => $user,
 'password' => $pass));
